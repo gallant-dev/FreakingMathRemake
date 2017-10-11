@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FreakingMathRemake"
+             x:Class="FreakingMathRemake.SecondPage">
+    <StackLayout x:Name="AppBackground" BackgroundColor="Aquamarine">
+        <ProgressBar x:Name="TimerBar" VerticalOptions="CenterAndExpand"></ProgressBar>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Volume" FontFamily="Showcard Gothic" HorizontalOptions="StartAndExpand"></Button>
+            <Label x:Name="ScoreBoard" FontFamily="Showcard Gothic" HorizontalOptions="EndAndExpand" Text="0" FontSize="Large" TextColor="White" ></Label>
+        </StackLayout>
+        <Label x:Name="Formula" FontFamily="Showcard Gothic" HorizontalOptions="CenterAndExpand" HeightRequest="100" TextColor="White" FontSize="50"></Label>
+        <Label x:Name="Answer" FontFamily="Showcard Gothic" VerticalTextAlignment="Start" HeightRequest="180" Text="" HorizontalOptions="CenterAndExpand" TextColor="White" FontSize="50"></Label>
+        <StackLayout Orientation="Horizontal">
+            <Button x:Name="Check" Text="Right!" FontSize="40" FontFamily="Showcard Gothic" TextColor="Blue" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  Clicked="ButtonClicked" WidthRequest="195" HeightRequest="195"></Button>
+            <Button x:Name="Ex" Text="X" FontSize="100" TextColor="Red" FontFamily="Showcard Gothic" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="ButtonClicked" WidthRequest="195" HeightRequest="195"></Button>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

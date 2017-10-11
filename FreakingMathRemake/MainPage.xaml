@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FreakingMathRemake"
+             x:Class="FreakingMathRemake.MainPage">
+    <StackLayout BackgroundColor="DarkGray">
+        <StackLayout BackgroundColor="DarkGray" VerticalOptions="CenterAndExpand">
+            <Label Text="Freaking Math" VerticalOptions ="Center" HorizontalOptions="CenterAndExpand" TextColor="White" FontSize="Large"></Label>
+            <Label></Label>
+            <Button Text="Play" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" Clicked="PlayClicked" FontSize="Large"></Button>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
